@@ -1,0 +1,162 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9b9b9;
+    min-height: 100vh;
+}
+
+/* Contenedor principal */
+.open {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estilo para la foto de perfil */
+.miop img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20%; /* Imagen circular */
+    object-fit: cover;
+    border: 4px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.miop img:hover {
+    transform: scale(1.1);
+}
+
+/* Contenedor del contenido centrado */
+.conter {
+    flex: 1;
+    text-align: justify;
+    padding: 10px;
+}
+
+.conter h1 {
+    font-family: 'Georgia', serif;
+    font-size: 4rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.conter h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.conter p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #252424;
+}
+.must img {
+    width: 340px; /* Ajusta el ancho de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    margin: 10px; /* Añade espacio alrededor de las imágenes */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+}
+
+.must img:hover {
+    transform: scale(1.1);
+}
+
+.conter  .mus{
+    font-size: 25px;
+    line-height: 1.6;
+    color: #000000;
+} 
+.conter .mus:hover {
+    color: #107c1e;
+}
+
+.conter  .mip{
+    font-size: 25px;
+    line-height: 1.6;
+    color: #000000;
+} 
+.conter .mip:hover {
+    color: #3127b6;
+}
+
+.conter ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.conter ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+h1:hover{
+    color: #79009e;
+}
+
+h2:hover{
+    color: #79009e;
+}
+
+
+
+.info img{
+    width: 60px; 
+    height: auto; 
+    margin: 10px; 
+    border-radius: 5px; 
+}
+.info img:hover {
+    transform: scale(1.1);
+}
+
+.fotosicon .fot{
+    font-size: 25px;
+    line-height: 1.6;
+    color: #000000;
+} 
+.fotosicon .fot:hover {
+    color: #ac0b0b;
+}
+
+/* Collage de fotos */
+.fotosicon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.fotosicon img {
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.fotosicon img:hover {
+    transform: scale(1.1);
+}
+
+.fotosicon p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
